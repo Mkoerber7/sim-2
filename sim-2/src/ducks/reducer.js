@@ -5,11 +5,21 @@
 // uncomment export default reducer;
 
 const initialState = {
-
+    propertyName: '',
+    propertyDescription: '',
+    address: '',
+    city: '',
+    state: '',
+    zip: '',
+    imageUrl: '',
+    loanAmount: '',
+    MonthlyMortgage: '',
+    desiredRent: '',
+    recommendedRent: ''
 }
 
 function reducer(state = initialState, action){
-    
+
 }
 
 
